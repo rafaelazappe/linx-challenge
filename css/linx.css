@@ -111,6 +111,30 @@ input {
 }
 /****** Head Messages *****/
 
+/****** Separator *******/
+.separator {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator::before {
+  margin-right: 0.75em;
+}
+.separator::after {
+  margin-left: 0.75em;
+}
+/****** Separator *******/
+
 /****** Mobile *******/
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
