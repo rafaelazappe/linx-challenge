@@ -135,6 +135,53 @@ input {
 }
 /****** Separator *******/
 
+/****** Cards *******/
+/* Float four columns side by side */
+.product {
+  float: left;
+  width: 23%;
+  padding: 0 0.5em;
+}
+
+/* Remove extra left and right margins, due to padding */
+.products {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.products:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the cards */
+.productCard {
+  padding: 0.2em;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.productCard > button,
+img {
+  width: 100%;
+}
+/****** Cards *******/
+
+/****** More Products *******/
+#moreProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#moreProducts button {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
 /****** Mobile *******/
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
