@@ -53,3 +53,60 @@ button {
   background-color: white;
 }
 /**** Header *****/
+
+/****** Head Messages *****/
+#message {
+  margin: 1rem 0 4.5rem 0;
+}
+
+.col-1 {
+  float: left;
+  width: 60%;
+}
+
+.col-2 {
+  float: left;
+  width: 40%;
+}
+
+#messageText {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin: 0px 1.5rem;
+  font-size: 0.6rem;
+}
+
+.messageForm {
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  width: 17rem;
+  margin: 0 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.messageForm > br {
+  margin-bottom: 0.75rem;
+}
+
+#messageText > h4 {
+  font-size: 1rem;
+}
+
+#messageText > p {
+  font-size: 1rem;
+}
+
+.radio > label {
+  margin-right: 2rem;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+input {
+  font-size: 0.85rem;
+}
+/****** Head Messages *****/
