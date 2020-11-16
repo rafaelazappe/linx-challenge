@@ -110,3 +110,37 @@ input {
   font-size: 0.85rem;
 }
 /****** Head Messages *****/
+
+/****** Mobile *******/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  #message {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #messageText {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .messageForm #messageText {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/****** Mobile *******/
