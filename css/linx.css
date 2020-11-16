@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica") * {
+  font-family: "Helvetica";
+  font-size: 20px;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/**** Header *****/
+.header {
+  text-align: center;
+  padding-top: 3.5rem;
+  height: 20rem;
+  color: #ffffff;
+}
+
+.headerClip {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 23rem;
+  width: 100%;
+  background-color: #707070;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  z-index: -1;
+}
+
+.header > h2 {
+  margin-top: 0px;
+  font-size: 1rem;
+}
+
+.header > h1 {
+  height: 2.4rem;
+}
+
+.header > h3 {
+  margin-top: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.header button {
+  font-size: 0.7rem;
+  margin: 0% 2% 2% 2%;
+  width: 8rem;
+  box-shadow: 0 1px #00000029;
+}
+
+button {
+  font-size: 16px;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  padding: 10px 0;
+  background-color: white;
+}
+/**** Header *****/
